@@ -1,0 +1,34 @@
+{
+  "name": "dbpoc-backend",
+  "version": "1.0.0",
+  "description": "Backend of POC turtleDB-tortoiseDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "start": "nodemon index.js",
+    "debug": "DEBUG=tortoiseDB:* node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t2b-demo/tortoiseDB-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t2b-demo/tortoiseDB-backend/issues"
+  },
+  "homepage": "https://github.com/t2b-demo/tortoiseDB-backend#readme",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.8",
+    "supports-color": "^5.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
