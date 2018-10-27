@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start": "nodemon index.js",
+    "start": "node index.js",
     "debug": "DEBUG=tortoiseDB:* node index.js"
   },
   "repository": {
